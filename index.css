@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: smooth gradient transition */
+.animate-gradient-xy {
+  background-size: 400% 400%;
+  animation: gradient-xy 12s ease infinite;
+}
